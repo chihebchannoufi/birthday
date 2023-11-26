@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+#btn {
+  position: absolute;
+}
+
+@keyframes birthdayAnimation {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+}
+
+.birthday-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    animation-name: birthdayAnimation;
+    animation-duration: 2s;
+}
