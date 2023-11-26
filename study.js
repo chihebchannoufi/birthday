@@ -97,7 +97,7 @@ let clickCount = 0;
 
 function addBirthdayMessage() {
    const birthdayMessage = document.createElement('div');
-   birthdayMessage.textContent = 'Happy Birthday chiheb channoufi wish you all the best ';
+   birthdayMessage.textContent = 'HAPPY BIRTHDAY';
    birthdayMessage.classList.add('birthday-message');
    document.body.appendChild(birthdayMessage);
 }
